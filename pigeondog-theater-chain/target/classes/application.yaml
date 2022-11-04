@@ -1,0 +1,12 @@
+server:
+  port: 8091
+
+logging:
+  level:
+    fun.pigeondog.common: DEBUG
+    fun.pigeondog.theater.chain: DEBUG
+  file:
+    path: ${pigeondog.work-dir}/logs
+
+pigeondog:
+  work-dir: ${user.home}/.pigeondog/
